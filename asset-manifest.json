@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/instaclone/static/css/main.f0bd121f.css",
+    "main.js": "/instaclone/static/js/main.f2364be3.js",
+    "static/js/787.704013e5.chunk.js": "/instaclone/static/js/787.704013e5.chunk.js",
+    "static/media/zoo.png": "/instaclone/static/media/zoo.8b0745f95b5d96a52555.png",
+    "static/media/aruku.png": "/instaclone/static/media/aruku.5b1ec025db92a53df1b0.png",
+    "static/media/central.png": "/instaclone/static/media/central.1c40d95a8bb350749fd6.png",
+    "static/media/simhachalam.png": "/instaclone/static/media/simhachalam.8ba530e4e4cedaec9bf8.png",
+    "static/media/rushikonda.png": "/instaclone/static/media/rushikonda.e91b2605f1d1ea64c827.png",
+    "static/media/tenneti.png": "/instaclone/static/media/tenneti.3f7e352008d2071b7e4f.png",
+    "static/media/vuda.png": "/instaclone/static/media/vuda.a3d8584f6a9a5e492007.png",
+    "static/media/bheemli.png": "/instaclone/static/media/bheemli.74707514afbe86dfd3c1.png",
+    "static/media/kambala.png": "/instaclone/static/media/kambala.9add7e581173479ce915.png",
+    "static/media/viewpoin.png": "/instaclone/static/media/viewpoin.dce6fac8e3ff2298a4f0.png",
+    "static/media/kailashagiri.png": "/instaclone/static/media/kailashagiri.8d3c8ca127badca52ff7.png",
+    "static/media/beachh.jpg": "/instaclone/static/media/beachh.294d5b6819a7571869a5.jpg",
+    "static/media/beach.jpg": "/instaclone/static/media/beach.4fd53c77f64641305648.jpg",
+    "static/media/insta.png": "/instaclone/static/media/insta.15fe40da24b2dae0f7cb.png",
+    "index.html": "/instaclone/index.html",
+    "main.f0bd121f.css.map": "/instaclone/static/css/main.f0bd121f.css.map",
+    "main.f2364be3.js.map": "/instaclone/static/js/main.f2364be3.js.map",
+    "787.704013e5.chunk.js.map": "/instaclone/static/js/787.704013e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0bd121f.css",
+    "static/js/main.f2364be3.js"
+  ]
+}
