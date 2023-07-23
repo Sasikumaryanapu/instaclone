@@ -1,0 +1,115 @@
+@media screen and (min-width:375px) {
+
+    
+  .carousel{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    overflow: hidden;
+    
+  }
+
+  .carousel > input{
+    border: none;
+    outline: none;
+    visibility: hidden;
+  }
+
+
+  .labels{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      position: relative;
+      width: 300px;
+      top:50px;
+    left: 80px;
+    gap: 10px;
+    height: 28px;
+    border: 1px solid rgb(240, 231, 231);
+    border-radius: 20px;
+    background-color: rgb(227, 222, 222);
+    font-size: medium;
+    color: black ;
+    font-weight: 600;
+    filter: blur(0.3 px);
+  }
+
+  .btns{
+
+    padding-top: 5px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+
+  }
+  
+  .btns > button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+
+    
+  }
+  .preview{
+    height: 400px;
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border: 1px solid black;
+    margin-top: -57px;
+    position: relative;
+    top: 60px;
+  }
+
+.posting{
+
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+
+ 
+}
+
+.posting_cotainer{
+
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.posting_cotainer input{
+
+  border: none;
+  outline: none;
+  height: 40px;
+  border-bottom: 2px solid rgb(208, 202, 202);
+
+
+}
+
+.posting_cotainer input::placeholder{
+  font-size: large;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+.tags_loc{
+  width: 360px;
+  padding-right: 10px;
+
+}
+
+.tags_loc > input{
+  width: 340px;
+
+}
+
+.posting > img{
+  margin-top: 20px;
+  margin-left: 5px;
+}
+}

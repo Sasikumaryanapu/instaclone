@@ -1,0 +1,44 @@
+@media screen and (min-width:375px) {
+
+  
+.reels_container{
+    margin-bottom: 60px;
+    padding-top: 10px;
+    overflow: hidden;
+
+   
+}
+
+.reels_container > img{
+    opacity: 50%;
+
+}
+
+.reels_quote{
+    position: relative;
+    top: -280px;
+    color: black;
+    text-align: left;
+    padding-left: 55px;
+}
+.reels_profile{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 14px;
+    align-items: center;
+    position: relative;
+    top: -140px;
+}
+
+.reels_profile > img{
+    border-radius: 50%;
+}
+
+.reels_card{
+    margin-bottom: -275px;
+}
+
+
+
+}

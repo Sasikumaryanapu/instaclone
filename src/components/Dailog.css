@@ -1,0 +1,96 @@
+@media screen and (min-width:375px) {
+    
+.search_dailog{
+    visibility: hidden;
+}
+
+.comments_dailog{
+    border: 1px solid white;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white;
+    width: 370px;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translate3d(0,-400px,100px);
+    padding-bottom: 6px;
+    transition: all 5s ease-in;
+}
+
+.comments_dailog{
+    height: 400px;
+
+}
+
+
+.comments_head > h4 {
+    z-index: -200;
+}
+
+
+
+.comments_head > p{
+    border: 1px solid grey;
+}
+
+.comments_inp{
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.comments_inp > img{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+.comments_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cnames > p{
+    font-size: small;
+    padding-left: 10px;
+}
+.cnames{
+    position: relative;
+    top: -20px;
+    padding: 0;
+    line-height: 5px;
+    z-index: -100;
+}
+.comments_card > img{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-left: 10px;
+}
+
+
+
+.comments_inp > input[type="text"]{
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    border-radius: 20px;
+
+}
+
+.comments_inp > input[type="text"]::placeholder{
+
+    font-weight: 400;
+    font-size: medium;
+}
+}

@@ -1,0 +1,36 @@
+@media screen and (min-width:375px) {
+
+
+.header_container{
+    display: flex;
+    width: 375px;
+    height: 60px;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: -40px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 4000;
+}
+
+a{
+    color: black;
+}
+.header_content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 5px;
+    padding-left: 93px;
+}
+
+
+.share{
+    transform:rotate(330deg);
+    position: relative;
+    top: -6px;
+}
+
+}

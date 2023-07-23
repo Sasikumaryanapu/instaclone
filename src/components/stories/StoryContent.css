@@ -1,0 +1,23 @@
+.Stoires_content_container{
+
+position: relative;
+line-height: 0px;
+}
+.contain > h5{
+    position: relative;
+    top: -20px;
+    font-weight: 400;
+}
+
+.stories{
+    border: 3px solid pink;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.contain :hover{
+    width: 375px;
+    height: 500px;
+    transform: translate(0px,-180px);
+}

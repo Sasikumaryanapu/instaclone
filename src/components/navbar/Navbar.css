@@ -1,0 +1,19 @@
+@media screen and (min-width:375px) {
+
+
+.navbar_container{
+    background-color:white;
+    display: flex;
+    gap: 44px;
+    position: relative;
+    top: 610px;
+    position: fixed;
+    padding: 10px;
+    z-index: 0;
+}
+
+.navbar_container > a{
+    color: black;
+}
+
+}

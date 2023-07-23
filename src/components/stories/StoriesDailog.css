@@ -1,0 +1,51 @@
+@media screen and (min-width:375px) {
+
+
+    .stories_dailog_container
+    {
+        width: 375px;
+        height: 690px;
+        background-color:white;
+        z-index: 3000;
+        transform:translate3d(0px,-20px,200px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .storiesDailog{
+       
+       
+    }
+
+    .stories_dailog_container > img{
+       
+        animation: stories 10s ease 2s infinite;
+        
+    }
+
+    @keyframes stories {
+
+        0%{
+        transform: translateX(375px);
+
+        }
+        25%{
+            transform: translateX(-5px);
+    
+            }
+        50%{
+            transform: translateX(-370px);
+        
+            }
+        100%{
+        transform: translateX(370px);
+
+        }
+        
+    }
+
+}

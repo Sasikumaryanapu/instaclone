@@ -1,0 +1,101 @@
+body{
+    background-color: #FAFAFA;
+}
+
+@media screen and (min-width:375px) {
+
+
+.loginpage_main{
+    display: flex;
+    margin-top: 25px;
+    position: relative;
+    left: -90px;
+    margin-top: 40px;
+}
+
+.loginpage_logo{
+    width: 175px;
+    margin: 25px;
+}
+
+.loginpage_rightcomp{
+    height: 380px;
+    width: 350px;
+    border: 1px solid #DBDBDB;
+    margin-top: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.loginpage_rightcomp > img{
+    height: 100px;
+}
+
+.loginpage_signin{
+    margin-top: 25px;
+}
+.login_input{
+    height: 36px;
+    width: 258px;
+    margin: 5px;
+    border: 1px solid #DBDBDB;
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.login_btn{
+    width: 270px;
+    height: 36px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #0395f6;
+    background-color: #0395f6;
+    color: white;
+    margin-top: 5px;
+}
+
+.login_or{
+    margin:0px 10px;
+    font-weight: bold;
+    color: #8E8E8E;
+}
+
+.login_fb a {
+    color:#395185;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.login_forgotpwd{
+    color: rgb(var(--fe0,0,55,107),1);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.loginpage_signup{
+    margin-top: 20px;
+    border: 1px solid #DBDBDB;
+    background-color: white;
+    height: 30px;
+    padding-top: 15px;
+}
+
+.loginpage_appdwn{
+    margin-top: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+.loginpage_dwsection{
+    margin-top: 20px;
+}
+
+.loginpage_dwimg{
+    margin: 5px;
+    height: 30px;
+}
+
+}

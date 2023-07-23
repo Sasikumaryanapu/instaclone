@@ -1,0 +1,22 @@
+@media only screen and (min-width:375px) {
+
+
+.Reels_likes_container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -260px;
+    left: 330px;
+}
+
+.Reels_likes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+}

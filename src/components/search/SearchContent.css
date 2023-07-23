@@ -1,0 +1,46 @@
+@media only screen and (min-width:375px) {
+
+.card_container{
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Seacrh_Content_Container{
+    margin-bottom: 50px;
+}
+
+.images_col{
+    border: 1px solid white;
+    height: 400px;
+    margin-bottom: 15px;
+    width: auto;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+
+.images_row{
+    height: 100px;
+   overflow: hidden;
+}
+
+.images{
+    width:120px;
+    height: 120px;
+}
+
+.moveup{
+    margin-top: 0px;
+}
+
+.noposts{
+   
+    position: relative;
+    top: 200px;
+    left: 120px;
+    color: rgb(147, 141, 141);
+}
+
+}
