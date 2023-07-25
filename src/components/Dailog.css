@@ -27,6 +27,7 @@
 
 
 .comments_head > h4 {
+    text-align: center;
     z-index: -200;
 }
 

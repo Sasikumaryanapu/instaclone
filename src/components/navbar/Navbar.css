@@ -6,8 +6,9 @@
     display: flex;
     gap: 44px;
     position: relative;
-    top: 610px;
+    top: 675px;
     position: fixed;
+
     padding: 10px;
     z-index: 0;
 }

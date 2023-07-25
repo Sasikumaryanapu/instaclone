@@ -2,7 +2,7 @@ body{
     background-color: #FAFAFA;
 }
 
-@media screen and (min-width:375px) {
+@media screen and (min-width:360px) {
 
 
 .loginpage_main{
@@ -81,6 +81,7 @@ body{
     background-color: white;
     height: 30px;
     padding-top: 15px;
+    text-align: center;
 }
 
 .loginpage_appdwn{
