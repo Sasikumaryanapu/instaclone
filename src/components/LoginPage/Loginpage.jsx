@@ -1,9 +1,13 @@
 import { Grid } from '@mui/material'
 import React, { useState } from 'react'
 import "./Loginpage.css"
+import useBearStore from '../../store'
 import { useNavigate } from 'react-router-dom'
 import instagram from "../../Images/insta.png"
 const Loginpage = () => {
+
+  const setLogin=useBearStore((state)=>state.setLogin)
+
 
   const [user, setUser] = useState({ email: "", pwd: "" })
   const [flag,setFlag] = useState(false)
@@ -36,13 +40,17 @@ const Loginpage = () => {
   const log_in=()=>{
 
     if(user.email && user.pwd != " "){
-    let getData = JSON.parse(localStorage?.usersList);
+
+      if(localStorage?.usersList){
+
+        let getData =  JSON.parse(localStorage.usersList);
     
 
 
     getData?.map(d => {
        if(user.pwd == d.pwd && user.email == d.email){
         sessionStorage.name=user.email
+        setLogin()
         navigate("/home")
       }
       else{
@@ -54,6 +62,7 @@ const Loginpage = () => {
     
     })
   }
+}
   }
   return (
 

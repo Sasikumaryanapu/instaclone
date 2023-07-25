@@ -132,7 +132,6 @@ const Post = () => {
                   f.liked=true
                   f.likedby=sessionStorage?.name
                   likes.push(f)
-                  
                   e.likespost=likes
                   console.log(likes)
                   console.log(e.likespost)

@@ -1,6 +1,8 @@
 import {create} from "zustand" 
  
  const useBearStore = create((set) => ({
+    login:false,
+    setLogin:()=>set(()=>({login:true})),
     avatar:" ",
     changeAvatar:(picture)=>set(()=>({avatar:picture})),
     profile_pic:" ",

@@ -20,7 +20,7 @@ const navigate=useNavigate()
   return (
     <div>
     <div className='stories_container'>
-      <div className='container'  onClick={()=>navigate("storydailog")}>
+      <div className='container'  onClick={()=>navigate("/storydailog")}>
         <img src={profile} className="addon" alt=''/>
         <p>story</p>
           <div className="blu">

@@ -20,11 +20,11 @@ const StoriesDailog = () => {
       if (localStorage?.usersList) {
         let getData = JSON.parse(localStorage.usersList);
         
-        getData = getData.map((e) => {
+        getData = getData?.map((e) => {
           if (e.email == sessionStorage?.name) {
              console.log(e.stories)
              console.log("ho")
-             setStories(e.stories)
+             setStories(e.storieList)
              
           }
         
@@ -36,7 +36,7 @@ const StoriesDailog = () => {
     <div className='stories_dailog_container' >
 
    {
-     stories != 0 ? stories.map((story)=>
+     stories != 0 ? stories?.map((story)=>
         <img src={story.src} alt="sasi" width={370} height={667} onClick={()=>setStoryFlag()}/>
        
     ) : navigate("/addpage")

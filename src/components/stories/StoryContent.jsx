@@ -4,11 +4,6 @@ import { useEffect } from 'react'
 const StoryContent = ({data}) => {
   
  
-  useEffect(()=>{
-    
-  },[])
-  
-
   
     
   return (

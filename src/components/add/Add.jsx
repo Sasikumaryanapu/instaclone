@@ -113,7 +113,7 @@ const Add = () => {
               }
             }
     
-          },[reels,ReelsPreview])
+          },[reels])
     
     
            //stories

@@ -57,7 +57,7 @@ const Profile = () => {
   if (localStorage?.usersList) {
     let getData = JSON.parse(localStorage.usersList);
     
-    getData = getData.map((e) => {
+    getData = getData?.map((e) => {
       if (e.email == sessionStorage?.name) {
         //  setUser_name(e.email)
          console.log(e.details )
@@ -84,7 +84,7 @@ setFlag2(false)
   if (localStorage?.usersList) {
     let getData = JSON.parse(localStorage.usersList);
     
-    getData = getData.map((e) => {
+    getData = getData?.map((e) => {
       if (e.email === sessionStorage?.name) {
         setSavedpost(e.savedposts) 
           
@@ -104,19 +104,19 @@ setFlag2(false)
           if (localStorage?.usersList) {
             let getData = JSON.parse(localStorage.usersList);
             
-            getData = getData.map((e) => {
+            getData = getData?.map((e) => {
               if (e.email == sessionStorage?.name) {
     
                     if(!e.storiesList){
                         let storie=[]
-                        stories.map( r =>{
+                        stories?.map( r =>{
                           storie.push(r)
                         })
                         e.storieList=storie
                       }
                      else{
                       let storie=[]
-                        stories.map( r =>{
+                        stories?.map( r =>{
                           storie.push(r)
                         })
                         e.storieList=storie
@@ -159,7 +159,7 @@ setFlag2(false)
     <div className="gallery_container">
       <div className="profile_head">
         <h4>{details?.username}</h4>
-        <p></p>
+        <p>{details?.bio}</p>
         <p>Coding is all about solving 💻 </p>
       </div>
       <div className="story_high">
