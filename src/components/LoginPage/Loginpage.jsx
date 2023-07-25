@@ -11,6 +11,8 @@ const Loginpage = () => {
 
   const [user, setUser] = useState({ email: "", pwd: "" })
   const [flag,setFlag] = useState(false)
+  const [userError,setUserError] = useState(false)
+
   const [error,setError]=useState(false)
 
   const navigate=useNavigate()
@@ -48,16 +50,26 @@ const Loginpage = () => {
 
 
     getData?.map(d => {
-       if(user.pwd == d.pwd && user.email == d.email){
-        sessionStorage.name=user.email
-        setLogin()
-        navigate("/home")
+
+      if(d.email == user.email){
+
+        if(user.pwd == d.pwd && user.email == d.email){
+          sessionStorage.name=user.email
+          setLogin()
+          navigate("/home")
+        }
+        else{
+  
+          setError(true)
+          
+        }
+
       }
       else{
-
-        setError(true)
-        
+        setUserError(true)
       }
+
+       
     
     
     })
@@ -127,6 +139,7 @@ const Loginpage = () => {
                   <input className='login_input' type='email' required  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder='Phone Number ,username or email' onChange={(e) => setUser({ ...user, email: e.target.value })} />
                   <input className='login_input' type='password' required placeholder='password'  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" onChange={(e) => setUser({ ...user, pwd: e.target.value })} /> <br/>
                  { error ? <span style={{color:"red"}}>wrong mail or password</span>  : null}
+                 { userError ? <span style={{color:"red"}}>user does not exist</span>  : null}
                   <input type="submit" className='login_btn' onClick={() => log_in()} value="log in"  />
                 </div>
                 <div>
